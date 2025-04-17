@@ -14,6 +14,7 @@ void Game::initWindow() {
 }
 
 void Game::initTexture() {
+    //FUCK DSA IDK HOW DO IT EFFECTIVELY
     std::vector<std::string> images = {"alien.png", "alien2.png", "alien3.png"};
     std::mt19937 gen(this->rd());
     std::uniform_int_distribution<> dist(0, 2);
